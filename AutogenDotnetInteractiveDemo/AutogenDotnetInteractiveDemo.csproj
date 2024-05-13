@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>dotnet-AutogenDotnetInteractiveDemo-645F6227-2D17-45BF-AECF-ADFF38F50923</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AutoGen.DotnetInteractive" Version="0.0.13" />
+        <PackageReference Include="AutoGen.SemanticKernel" Version="0.0.13" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0"/>
+    </ItemGroup>
+</Project>
