@@ -18,7 +18,7 @@ public class Worker : BackgroundService
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
-        string openAiKey = "";
+        string openAiKey = "123";
         string modelId = "llama3";
         var settings = new OpenAIPromptExecutionSettings
         {
